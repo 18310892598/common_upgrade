@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_upgrade.iml" filepath="$PROJECT_DIR$/.idea/modules/common_upgrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/common_upgrade.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/common_upgrade.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/updateapp/common_upgrade.updateapp.iml" filepath="$PROJECT_DIR$/.idea/modules/updateapp/common_upgrade.updateapp.iml" />
+    </modules>
+  </component>
+</project>

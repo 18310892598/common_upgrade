@@ -55,7 +55,7 @@ dependencies {
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.ole.travel.update.fileProvider" (此处包名修改为应用包名)
+            android:authorities="com.example.common_upgrade.fileProvider" (此处包名修改为应用包名)
             android:exported="false"
             android:grantUriPermissions="true"
             tools:replace="android:authorities">
