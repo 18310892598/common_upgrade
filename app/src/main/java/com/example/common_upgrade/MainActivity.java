@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dodown();
+                dodown(2);
             }
         });
 
@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 启动依赖下载
+     * @updateType 1:显示dialog 2：通知栏显示
      */
-    private void  dodown(){
-        BgUpdate.updateForNotification(MainActivity.this, url, filename);
+    private void  dodown(int updateType){
+        BgUpdate.updateForNotification(MainActivity.this, url, filename,updateType);
     }
 }

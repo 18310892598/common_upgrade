@@ -63,9 +63,7 @@ public class BgUpdate {
         BgUpdate.filePath = filePath;
         startDownload(context);
     }
-    public static void updateForNotification(Context context, String url, String fileName) {
-        updateForNotification(context,url,fileName,"");
-    }
+
     /**
      * Notification更新
      *
@@ -73,8 +71,12 @@ public class BgUpdate {
      * @param url      下载链接
      * @param fileName 文件名称 例: olyc.apk
      */
-    public static void updateForNotification(Context context, String url, String fileName,String versionCode) {
-        TYPE = TYPE_NOTIFICATION;
+    public static void updateForNotification(Context context, String url, String fileName,int type) {
+        if(type==1) {
+            TYPE = TYPE_DIALOG;
+        }else if(type==2){
+            TYPE =TYPE_NOTIFICATION;
+        }
         BgUpdate.url = url;
 //        BgUpdate.filePath = filePath;
         BgUpdate.filePath = context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS).getPath()+"/"+fileName;
