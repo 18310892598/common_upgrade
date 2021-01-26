@@ -1,5 +1,7 @@
 # commom_update
 
+[![commomapp_update](https://img.shields.io/badge/build-1.0.1-brightgreen.svg?style=flat-square)]
+
 ## 内容列表
 
 - [背景](#背景)
@@ -50,7 +52,7 @@ allprojects {
 
 ```java
 dependencies {
-    api 'com.common.updateapp:update:1.0.0'
+    api 'com.common.updateapp:update:1.0.1'
 }
 ```
 3.manifest添加
