@@ -77,8 +77,9 @@ dependencies {
 ```java
 
    DownLoadManager mdownload=new DownLoadManager();
-   mdownload.checkAppUpdate(MainActivity.this,"1.0.0",force,type,bgResoureID);
+   mdownload.checkAppUpdate(MainActivity.this,"1.0.0",false,1,0);
 
+   参数说明参考如下：
  /**
      * 检测当前版本是否是最新版本
      * @param mContext 当前上下文

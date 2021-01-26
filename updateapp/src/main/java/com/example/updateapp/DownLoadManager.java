@@ -47,7 +47,6 @@ public class DownLoadManager {
             }
             progressid=R.drawable.appupdate_progress_bg;
         }
-        Log.e("TAG","本地版本号----"+versionName);
         OkGoUtils.getCode(null, new StringCallback() {
             @Override
             public void onSuccess(Response<String> response) {
