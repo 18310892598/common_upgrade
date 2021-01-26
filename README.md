@@ -82,7 +82,7 @@ dependencies {
  /**
      * 检测当前版本是否是最新版本
      * @param mContext 当前上下文
-     * @param versionName 版本号名称
+     * @param versionName 当前app版本号名称（即为该版本版本号）
      * @param type 平台提供三种样式1,2,3则为样式,4 (4:表示自定义样式)
      * @bgResourceid type 样式类型，如果类型是4，自定义则必须传该字段，否则默认为0 就行
      */
@@ -94,9 +94,9 @@ dependencies {
 ## 内置三种样式和自定义样式
 
 <img src="http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg" width="250" height="500" alt="样式1"/>
-<img src="http://chuantu.xyz/t6/741/1611645536x2073530386.jpg" width="250" height="500" alt="样式1"/>
+<img src="http://chuantu.xyz/t6/741/1611645536x2073530386.jpg" width="250" height="500" alt="样式2"/>
 <br/>
-<img src="http://chuantu.xyz/t6/741/1611645578x1700468761.jpg" width="250" height="500" alt="样式1"/>
-<img src="http://chuantu.xyz/t6/741/1611645601x-591243047.jpg" width="250" height="500" alt="样式1"/>
+<img src="http://chuantu.xyz/t6/741/1611645578x1700468761.jpg" width="250" height="500" alt="样式3"/>
+<img src="http://chuantu.xyz/t6/741/1611645601x-591243047.jpg" width="250" height="500" alt="自定义样式"/>
 
 
