@@ -93,10 +93,10 @@ dependencies {
 
 ## 内置三种样式和自定义样式
 
-![样式1](http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg)
-![样式2](http://chuantu.xyz/t6/741/1611645536x2073530386.jpg)
-![样式3](http://chuantu.xyz/t6/741/1611645578x1700468761.jpg)
-![自定义样式](http://chuantu.xyz/t6/741/1611645601x-591243047.jpg)
-<img src="http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg" width="200" height="500" alt="样式1"/><br/>
+<img src="http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg" width="250" height="500" alt="样式1"/>
+<img src="http://chuantu.xyz/t6/741/1611645536x2073530386.jpg" width="250" height="500" alt="样式1"/>
+<br/>
+<img src="http://chuantu.xyz/t6/741/1611645578x1700468761.jpg" width="250" height="500" alt="样式1"/>
+<img src="http://chuantu.xyz/t6/741/1611645601x-591243047.jpg" width="250" height="500" alt="样式1"/>
 
 
