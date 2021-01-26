@@ -9,14 +9,17 @@
 
 ## 背景
 
-`common_update` 是通用第三方下载组件
+`common_update` 是通用第三方下载组件，主要是服务长城中台自己搭建的应用发布平台，app发布后只要集成
+SDK后就会控制app自动升级及升级中自定义展示样式。
 
 ## 功能
-提供用于apk升级功能的支持，功能包括：  
+提供用于apk升级功能的支持，功能包括：
 
-> 1.apk下载功能
+> 1、SDK支持检测当前版本是否是最新版本，如果不是会给出弹出框提示
 
-> 2.通知栏提示功能
+> 2.自持自定义弹出框样式，目前内置了三种自定义样式，同时支持用户自定义升级弹出框提示样式
+
+> 2.自持app下载和安装功能
 
 
 
@@ -54,32 +57,36 @@ dependencies {
 ```java
 
         <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.common_upgrade.fileProvider" (此处包名修改为应用包名)
-            android:exported="false"
-            android:grantUriPermissions="true"
-            tools:replace="android:authorities">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/common_provider_paths"
-                tools:replace="android:resource"/>
-        </provider>
+                    android:name="androidx.core.content.FileProvider"
+                    android:authorities="com.example.common_upgrade.fileProvider"
+                    android:exported="false"
+                    android:grantUriPermissions="true">
+                    <meta-data
+                        android:name="android.support.FILE_PROVIDER_PATHS"
+                        android:resource="@xml/filepaths" />
+                </provider>
     
 ```
 
 
 ## 使用说明
 
-1.apk下载功能
+1.检测版本及升级
 
 ```java
-        BgUpdate.updateForNotification(MainActivity.this, url, filename);
+
+   DownLoadManager mdownload=new DownLoadManager();
+   mdownload.checkAppUpdate(MainActivity.this,"1.0.0",force,type,bgResoureID);
+
+ /**
+     * 检测当前版本是否是最新版本
+     * @param mContext 当前上下文
+     * @param versionName 版本号名称
+     * @param type 平台提供三种样式1,2,3则为样式,4 (4:表示自定义样式)
+     * @bgResourceid type 样式类型，如果类型是4，自定义则必须传该字段，否则默认为0 就行
+     */
+    public  void checkAppUpdate(Activity mContext, String versionName,boolean force,int type,int bgResourceid)
 
 ```
 
-2.关闭服务
 
-```java
-        BgUpdate.closeService(this);
-
-```
