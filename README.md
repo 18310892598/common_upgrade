@@ -1,4 +1,4 @@
-# commen_update
+# commom_update
 
 ## 内容列表
 
@@ -9,7 +9,7 @@
 
 ## 背景
 
-`commen_update` 是通用第三方下载组件
+`common_update` 是通用第三方下载组件
 
 ## 功能
 提供用于apk升级功能的支持，功能包括：  
