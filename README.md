@@ -6,6 +6,7 @@
 - [功能](#功能)
 - [接入](#接入)
 - [使用说明](#使用说明)
+- [默认样式及自定义样式](#默认样式及自定义样式)
 
 ## 背景
 
@@ -88,5 +89,12 @@ dependencies {
     public  void checkAppUpdate(Activity mContext, String versionName,boolean force,int type,int bgResourceid)
 
 ```
+
+## 内置三种样式和自定义样式
+
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
 
 
