@@ -1,6 +1,6 @@
 # commom_update
 
-[![commomapp_update](https://img.shields.io/badge/build-1.0.1-brightgreen.svg?style=flat-square)]
+![commomapp_update](https://img.shields.io/badge/Build-1.0.1-green.svg)
 
 ## 内容列表
 
