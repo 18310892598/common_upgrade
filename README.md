@@ -92,9 +92,9 @@ dependencies {
 
 ## 内置三种样式和自定义样式
 
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
-![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
+![样式1](http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg)
+![样式2](http://chuantu.xyz/t6/741/1611645536x2073530386.jpg)
+![样式3](http://chuantu.xyz/t6/741/1611645578x1700468761.jpg)
+![自定义样式](http://chuantu.xyz/t6/741/1611645601x-591243047.jpg)
 
 
