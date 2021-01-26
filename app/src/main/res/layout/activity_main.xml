@@ -14,16 +14,70 @@
         android:layout_margin="10dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:text="点击下载"
+        android:text="普通升级样式1"
         android:background="@android:color/holo_orange_dark"
         />
     <Button
+        android:id="@+id/download_one"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_margin="10dp"
         app:layout_constraintTop_toBottomOf="@+id/download"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:text="分享日志"
+        android:text="强制升级样式1"
+        android:background="@android:color/holo_orange_dark"
+        />
+    <Button
+        android:id="@+id/downloadtwo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/download_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="普通升级样式2"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <Button
+        android:id="@+id/downloadtwo_one"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/downloadtwo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="强制升级样式2"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <Button
+        android:id="@+id/downloadthree"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/downloadtwo_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="普通升级样式3"
+        android:background="@android:color/holo_orange_dark"
+        />
+
+    <Button
+        android:id="@+id/downloadthree_one"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/downloadthree"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="强制升级样式3"
+        android:background="@android:color/holo_orange_dark"
+        />
+    <Button
+        android:id="@+id/download_four"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/downloadthree_one"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="自定义样式"
         android:background="@android:color/holo_orange_dark"
         />
 

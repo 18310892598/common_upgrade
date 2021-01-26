@@ -11,7 +11,10 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:theme="@style/Theme.Common_upgrade">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,12 +26,10 @@
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.common_upgrade.fileProvider"
             android:exported="false"
-            android:grantUriPermissions="true"
-            tools:replace="android:authorities">
+            android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/common_provider_paths"
-                tools:replace="android:resource"/>
+                android:resource="@xml/filepaths" />
         </provider>
 
     </application>
