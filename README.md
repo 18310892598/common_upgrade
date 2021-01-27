@@ -95,10 +95,10 @@ dependencies {
 
 ## 内置三种样式和自定义样式
 
-<img src="http://chuantu.xyz/t6/741/1611645490x-1404755671.jpg" width="250" height="500" alt="样式1"/>
-<img src="http://chuantu.xyz/t6/741/1611645536x2073530386.jpg" width="250" height="500" alt="样式2"/>
+<img src="http://tiebapic.baidu.com/forum/pic/item/6d28b6003af33a871d83ae52d15c10385243b59a.jpg" width="250" height="500" alt="样式1"/>
+<img src="http://tiebapic.baidu.com/forum/pic/item/82e23a87e950352a308f8b404443fbf2b3118b9a.jpg" width="250" height="500" alt="样式2"/>
 <br/>
-<img src="http://chuantu.xyz/t6/741/1611645578x1700468761.jpg" width="250" height="500" alt="样式3"/>
-<img src="http://chuantu.xyz/t6/741/1611645601x-591243047.jpg" width="250" height="500" alt="自定义样式"/>
+<img src="http://tiebapic.baidu.com/forum/pic/item/0e113af33a87e950c0f95d2407385343faf2b49a.jpg" width="250" height="500" alt="样式3"/>
+<img src="http://tiebapic.baidu.com/forum/pic/item/addf36d3d539b600c820a1fffe50352ac75cb79a.jpg" width="250" height="500" alt="自定义样式"/>
 
 
